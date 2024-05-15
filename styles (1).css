@@ -1,0 +1,58 @@
+/* Estilos gerais */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+
+header {
+    background-color: #f80070;
+    color: #fff;
+    text-align: center;
+}
+
+/* Estilos do conteúdo principal */
+
+.hero {
+    background-image: url('https://via.placeholder.com/800x400');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Estilos do rodapé */
+
+footer {
+    background-color: #f80070;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.minha-imagem {
+    position: absolute;/* Para posicionar a imagem de forma absoluta */
+    bottom: 220px; /* Posiciona a imagem no fundo do container */
+    right: 33em; /* Posiciona a imagem à direita do container */
+    width: 300px; /* Largura da imagem */
+    height: auto; /* Altura ajustada automaticamente para manter a proporção */
+    border: 2px solid black; /* Borda preta de 2px */
+    border-radius: 10px; /* Borda arredondada */
+}
